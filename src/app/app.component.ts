@@ -10,5 +10,8 @@ import { Component } from '@angular/core';
     }`]
 })
 export class AppComponent {
-
+  username = '';
+  onUsernameReset(event: Event){
+    this.username = '';
+  }
 }
